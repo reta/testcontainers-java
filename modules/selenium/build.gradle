@@ -3,7 +3,7 @@ description = "Testcontainers :: Selenium"
 dependencies {
     api project(':testcontainers')
 
-    provided 'org.seleniumhq.selenium:selenium-remote-driver:4.10.0'
+    provided 'org.seleniumhq.selenium:selenium-remote-driver:4.27.0'
     provided 'org.seleniumhq.selenium:selenium-chrome-driver:4.10.0'
 
     testImplementation platform('org.seleniumhq.selenium:selenium-bom:4.13.0')
