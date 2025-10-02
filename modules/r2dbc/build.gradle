@@ -6,7 +6,7 @@ description = "Testcontainers :: R2DBC"
 
 dependencies {
     api project(':testcontainers')
-    api 'io.r2dbc:r2dbc-spi:0.9.0.RELEASE'
+    api 'io.r2dbc:r2dbc-spi:0.9.1.RELEASE'
 
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.11.0'
 
