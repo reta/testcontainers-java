@@ -7,7 +7,7 @@ dependencies {
 
     testImplementation 'org.junit.jupiter:junit-jupiter:5.13.4'
     testImplementation project(':testcontainers-jdbc-test')
-    testRuntimeOnly 'io.trino:trino-jdbc:476'
+    testRuntimeOnly 'io.trino:trino-jdbc:478'
     compileOnly 'org.jetbrains:annotations:26.0.2'
 }
 
