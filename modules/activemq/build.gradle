@@ -8,7 +8,7 @@ dependencies {
     testImplementation 'org.assertj:assertj-core:3.27.4'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.13.4'
     testImplementation "org.apache.activemq:activemq-client:6.1.7"
-    testImplementation "org.apache.activemq:artemis-jakarta-client:2.42.0"
+    testImplementation "org.apache.activemq:artemis-jakarta-client:2.44.0"
 }
 
 test {
